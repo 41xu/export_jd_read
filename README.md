@@ -25,13 +25,15 @@ step2: 在我的订单页面, 点击某个购买过的电子书，之后会直�
 
 这里可直接获得`bookId`了
 
-step3: 记住页面 URL 地址中的 `bookId` 和 `readType` 参数, 例如: `https://cread.jd.com/read/startRead.action?bookId=30506710&readType=3`
+step3: 记住页面 URL 地址中的 `bookId` 和 `readType` 参数, 例如: `https://cread.jd.com/read/startRead.action?bookId=30440345&readType=3`
 
 note: 这里虽然我在浏览器上阅读的URL，如`https://cread.jd.com/read/startRead.action?bookId=30440345&readType=1` `readType`默认初始为1，但好像还是3能全部加载完🤔️
 
 step4: 执行 `npm run start`, 并输入 step3 的 `bookId` 和 `readType` 值即可
 
 程序会自动将导出的章节存储到 `output` 目录.
+
+step5(optional): `html2pdf` 参考(这个链接)[https://www.geeksforgeeks.org/python-convert-html-pdf/]即可
 
 ## 使用说明
 + 此脚本不会保存或者上传你的 Cookie;
